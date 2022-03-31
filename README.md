@@ -79,7 +79,7 @@ Visualize data in a graph
 **Category 4:** 
 
 Best Practices
-Utilize a virtual environment and a requirements.txt file(to document library dependencies).
+Utilize a virtual environment and a requirements.txt file(to document library dependencies)
 
 **"Stretch" feature/categories 5:**
 
