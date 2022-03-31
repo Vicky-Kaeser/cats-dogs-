@@ -2,7 +2,7 @@
 
 **Overview:**
 
-The project analyses Jefferson County Animal Services intakes based on indate by focusing on the years surrounding March 2020, when Covid-19 was detected in the U.S. The indate indicates the date the animal enter the Jefferson County Animal Services system. The years for the visualization graph are 2019, 2020, and 2021. 
+The project analyses Jefferson County Animal Services intakes based on indate by focusing on the years surrounding March 2020, when Covid-19 was detected in the U.S. The indate indicates the date the animal enters the Jefferson County Animal Services system. The years for the visualization graph are 2019, 2020, and 2021. 
 
 **Question:**
 
@@ -11,6 +11,8 @@ Did the animal intakes in 2020 reflect the upsurge of animal adoptions during Co
 **Data Source:**
 
 https://data.louisvilleky.gov/dataset/animal-service-intake-and-outcome
+**Disclaimer**
+The data source continues to update its information often, if data is retrieved  directly from the source it will not match with the indate date used for this project. You can still use the project and update the data as needed. This project was intended for educational purpose only and new update in the future are expected. That will include a visual with indate and outdate numbers.
 
 
 **This project contains the following, as expectations for a passing status:**
@@ -40,7 +42,7 @@ https://guides.github.com/features/mastering-markdown/
 
 An overview of what the project is about
 
-**Packages installetions to run the project:**
+**Packages installations to run the project:**
 
 **requirements.txt file contain the following:**
 
@@ -89,15 +91,34 @@ Use a Jupyter notebook to document your data analysis
 **Any special instructions required to run the project**
 
 
+**Python environments**
+https://docs.python.org/3/tutorial/venv.html
 
-Create a virtual environment: python3 -m venv env
-Activate virtual environment: source env/bin/activate
-Install requirements: pip install -r requirements.txt
+**On macOS or Unix**
+
+**Create a virtual environment: python3 -m venv env**
+
+**Activate virtual environment: source env/bin/activate**
+
+**Install requirements: pip install -r requirements.txt**
+
 Run the following code to start the program: python3 viewing.py
-Windows
 
-Create a virtual environment: py -m venv env
-Activate virtual environment: .\env\Scripts\activate
+
+**On Windows**
+
+**Create a virtual environment: py -m venv env**
+
+Activate virtual environment: env\Scripts\activate
+
 Install requirements: py -m pip install -r requirements.txt
+
 Run the following code to start the program: py viewing.py
+
+
+**Anaconda environment.yml**
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+
+
 
